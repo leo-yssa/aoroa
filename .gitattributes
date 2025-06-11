@@ -1,0 +1,16 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force bash scripts to always use LF line endings
+*.sh text eol=lf
+
+# Force Go files to always use LF line endings
+*.go text eol=lf
+
+# Force Go module files to always use LF line endings
+go.mod text eol=lf
+go.sum text eol=lf
+
+# Force batch scripts to always use CRLF line endings
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf 
